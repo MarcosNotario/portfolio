@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es" data-bs-theme="light">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -18,13 +18,13 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="container-fluid px-0 fondo">
+        <div class="container-fluid px-0">
 
             <!--Navbar-->
-            <nav class="navbar navbar-expand-lg shadow bg-dark">
+            <nav class="navbar navbar-expand-lg border">
                 <div class="container-fluid">
 
-                    <a class="navbar-brand fs-3 px-3" href="/">marcos notario</a>
+                    <a class="navbar-brand fs-3 mx-3" href="/">marcos notario</a>
 
                     <button 
                     type="button" 
@@ -35,25 +35,23 @@
                     aria-expanded="false"
                     aria-label="toggle navigation"
                     >
-
-                    <span class="navbar-toggler-icon"></span>
-
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto">
                                 <li class="nav-item fs-3">
-                                    <a class="nav-link me-lg-3" href="/">inicio</a>
+                                    <a class="nav-link me-lg-3 text-secondary" href="/">inicio</a>
                                 </li>
                                 <li class="nav-item fs-3">
-                                    <a class="nav-link me-lg-3" href="#about">sobre mí</a>
+                                    <a class="nav-link me-lg-3 text-danger" href="#about">sobre mí</a>
                                 </li>
                                 <li class="nav-item fs-3">
-                                    <a class="nav-link me-lg-3" href="#projects">proyectos</a>
+                                    <a class="nav-link me-lg-3 text-success" href="#projects">proyectos</a>
                                 </li>
                                 <li class="nav-item fs-3">
-                                    <a class="nav-link me-lg-3" href="#contact">contacto</a>
+                                    <a class="nav-link me-lg-3 text-primary" href="#contact">contacto</a>
                                 </li>
                                 
                             </ul>
@@ -64,13 +62,13 @@
             </nav>
 
             <!--Hero-->
-            <header class="my-5">
-                <div class="container px-5 rounded-4 shadow bg-dark">
+            <header class="my-5 mx-3">
+                <div class="container px-5 rounded-4 border text-bg-secondary">
                     <div class="row">
                         <div class="col-xl-6 col-xxl-6 justify-content-center">
                             <div class="my-5">
-                                <h1 class="text-center texto-900 my-3 py-3 text-white">hola, soy Marcos</h1>
-                                <p class="fs-4 mx-3 px-3 text-center">
+                                <h1 class="text-center texto-900 my-3 py-3">hola, soy Marcos</h1>
+                                <p class="fs-5 mx-3 text-center">
                                     Soy un programador especializado en crear aplicaciones web y videojuegos basados en Unreal Engine. 
                                     En esta página encontrarás todos los proyectos en los que estoy trabajando e información acerca de mi formación y experiencia.
                                 </p>
@@ -78,8 +76,8 @@
                         </div>
 
                         <div class="col-xl-6 col-xxl-6 justify-content-center">
-                            <div class="card my-5">
-                                <img src="images/heroImage.png" alt="Imagen de mi proyecto más reciente" class="card-img">
+                            <div class="card my-5 rounded-5 border border-2">
+                                <img src="images/heroImage.png" alt="Imagen de mi proyecto más reciente" class="card-img rounded-5">
                                 <div class="card-img-overlay container">
                                     <a class="btn btn-light texto-900 btn-lg" href="#projects">Proyecto más reciente</a>
                                 </div>
@@ -89,17 +87,17 @@
                 </div>
             </header>
 
-            <section id="about" class="text-center">
-                <div class="container py-5 px-5 rounded-4 shadow bg-dark">
+            <section id="about" class="text-center mx-3 ">
+                <div class="container py-5 px-5 rounded-4 border text-bg-danger">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <h1 class="texto-900 text-white py-3">sobre mí</h1>
-                            <p class="fs-4 mb-4">
+                            <h1 class="texto-900 py-3">sobre mí</h1>
+                            <p class="fs-5 mb-4">
                                 Siempre me ha interesado la tecnología, y desde pequeño soy un apasionado de los videojuegos. 
                                 La oportunidad de conectar tanto socialmente con otros como con uno mismo a través de los juegos siempre ha sido una 
                                 parte importante de mi perspectiva.
                             </p>
-                            <p class="fs-4 mb-4">
+                            <p class="fs-5 mb-4">
                                 He cursado varios estudios relacionados con la tecnología y llevo programando desde muy joven. actualmente curso unos estudios de desarrollo de videojuegos
                                 especializados en programación en Unreal Engine y diseño de videojuegos (niveles, modelado, narrativa, etc.)
                             </p>
@@ -110,50 +108,36 @@
                         <div class="row row-cols-1 row-cols-lg-3 g-3">
     
                             <div class="col-lg-4 mb-3">
-                                <div class="card text-bg-light h-100 rounded-5">
+                                <div class="card h-100 rounded-5">
                                     <div class="card-body">
                                         <h1 class="card-title">
-                                            <span class="material-symbols-outlined">school</span>
+                                            <span class="material-symbols-outlined simboloFormacion">school</span>
                                         </h1>
-                                        <h4 class="card-title">Bachillerato Científico-técnico</h4>
-                                        <div class="mb-4">
-                                            <div class="badge bg-dark rounded-pill">Matemáticas</div>
-                                            <div class="badge bg-dark rounded-pill">Dibujo Técnico</div>
-                                            <div class="badge bg-dark rounded-pill">Física</div>
-                                        </div>
+                                        <h4 class="card-title">Bachillerato Científico-Técnico</h4>
                                         <p class="card-text">Torrejón de Ardoz, 2019-2021</p>
                                     </div>
                                 </div>
                             </div>
     
                             <div class="col-lg-4 mb-3">
-                                <div class="card text-bg-light h-100 rounded-5">
+                                <div class="card h-100 rounded-5">
                                     <div class="card-body">
                                         <h1 class="card-title">
-                                            <span class="material-symbols-outlined">web</span>
+                                            <span class="material-symbols-outlined simboloFormacion">web</span>
                                         </h1>
                                         <h4 class="card-title">Grado Superior en Desarrollo de Aplicaciones Web</h4>
-                                        <div class="mb-4">
-                                            <div class="badge bg-primary rounded-pill">HTML/CSS</div>
-                                            <div class="badge bg-warning text-dark rounded-pill">JavaScript</div>
-                                            <div class="badge bg-danger rounded-pill">Java</div>
-                                        </div>
                                         <p class="card-text">San Fernando de Henares, 2021-2023</p>
                                     </div>
                                 </div>
                             </div>
     
                             <div class="col-lg-4 mb-3">
-                                <div class="card text-bg-light h-100 rounded-5">
+                                <div class="card h-100 rounded-5">
                                     <div class="card-body">
                                         <h1 class="card-title">
-                                            <span class="material-symbols-outlined">sports_esports</span>
+                                            <span class="material-symbols-outlined simboloFormacion">sports_esports</span>
                                         </h1>
                                         <h4 class="card-title">Diseño y Programación de Videojuegos</h4>
-                                        <div class="mb-4">
-                                            <div class="badge bg-primary rounded-pill">Unity</div>
-                                            <div class="badge bg-dark rounded-pill">Unreal Engine</div>
-                                        </div>
                                         <p class="card-text">Remoto, 2023-2024</p>
                                     </div>
                                 </div>
@@ -164,37 +148,37 @@
                 </div>
             </section>
 
-            <section id="projects" class="text-center my-5">
-                <div class="container py-5 px-5 rounded-4 shadow bg-dark">
+            <section id="projects" class="text-center my-5 mx-3">
+                <div class="container py-5 px-5 rounded-4 border text-bg-success">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <h1 class="texto-900 text-white">proyectos</h1>
-                            <p class="fs-4 mb-4">
+                            <h1 class="texto-900 py-3">proyectos</h1>
+                            <p class="fs-5 mb-4">
                                 Estos son los proyectos en los que he trabajado o estoy trabajando actualmente.
                             </p>
                         </div>
                     </div>
     
                     <div class="container mt-5">
-                        <div class="row">
-                            <div class="col-lg-4 mx-auto">
-                                <div class="card h-100 border-5 text-bg-light" id="proyectoReciente">
-                                    <img src="images/proyecto1.png" alt="Imagen del primer proyecto" class="card-img-top">
+                        <div class="row row-cols-1 row-cols-lg-3 g-3">
+                            <div class="col-lg-6 mx-auto mb-3">
+                                <div class="card h-100 rounded-5" id="proyectoReciente">
+                                    <img src="images/proyecto1.png" alt="Imagen del primer proyecto" class="card-img-top rounded-top-5 border border-2">
                                     <div class="card-body p-4">
                                         <h4 class="card-title mb-3 texto-900">El Hangar</h4>
                                         <div class="mb-4">
                                             <div class="badge bg-dark rounded-pill">Unreal Engine</div>
                                         </div>
                                         <p class="card-text">
-                                            Rogue-like en el que deberás derrotar a hordas de robots en el menor tiempo posible. ¡Intenta batir tu propio
+                                            Rogue-like FPS en el que deberás derrotar a hordas de robots en el menor tiempo posible. ¡Intenta batir tu propio
                                             récord mientras consigues mejoras para aniquilar enemigos más rápido y más fuerte!
                                         </p>
                                     </div>
                                 </div>
                             </div>
     
-                            <div class="col-lg-4 mx-auto">
-                                <div class="card h-100 border-5 text-bg-light" id="proyectoReciente">
+                            <div class="col-lg-6 mx-auto mb-3">
+                                <div class="card h-100 rounded-5 d-flex align-middle" id="proyectoReciente">
                                     <div class="card-body p-4">
                                         <h4 class="card-title">
                                             <span class="material-symbols-outlined wip">psychology</span>
@@ -213,33 +197,76 @@
                 
             </section>
 
-            <section id="contact" class="text-center my-5">
+            <section id="contact" class="text-center my-5 mx-3">
 
-                <div class="container py-5 px-5 rounded-4 shadow bg-dark">
+                <div class="container py-5 px-5 rounded-4 border text-bg-primary">
                     <div class="container mb-5">
                         <div class="row justify-content-center">
-                            <h1 class="texto-900 text-white">contacto</h1>
-                            <p class="fs-4 mb-4">
+                            <h1 class="texto-900 py-3">contacto</h1>
+                            <p class="fs-5 mb-4">
                                 Información de contacto, donde puedes descargar mi currículum.
                             </p>
                         </div>
                     </div>
 
-                    <div class="container">
+                    <div class="container justify-content-center">
+                        <div class="row row-cols-1 row-cols-md-2 justify-content-center g-2">
+                            <div class="col-lg-6 mb-3 ">
+                                <div class="card rounded-pill h-100">
+                                    <div class="card-body">
+                                        <h4 class="card-title texto-900">teléfono</h4>
+                                        <p class="card-text fs-6">
+                                            +34 684 39 16 39
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3 ">
+                                <div class="card rounded-pill h-100">
+                                    <div class="card-body">
+                                        <h4 class="card-title texto-900">e-mail</h4>
+                                        <p class="card-text fs-6">
+                                            marcos.notario.m@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3 ">
+                                <div class="card rounded-pill h-100">
+                                    <div class="card-body">
+                                        <h4 class="card-title texto-900">dirección</h4>
+                                        <p class="card-text fs-6">
+                                            c/Alcalá, 18, piso 1, Loeches, Madrid, 28890
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-3 ">
+                                <div class="card rounded-pill h-100">
+                                    <div class="card-body">
+                                        <h4 class="card-title texto-900">currículum</h4>
+                                        <p class="card-text fs-6">
+                                            <a href="files/CV Marcos Notario.pdf" class="btn btn-primary rounded-pill" download>descargar</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                         
                     </div>
                 </div>
 
             </section>
 
-            <nav class="navbar navbar-expand-lg shadow bg-dark justify-content-center">
-                <div class="container px-5 mx-2 py-3 bg-dark justify-content-center">
+            <nav class="navbar navbar-expand-lg justify-content-center border">
+                <div class="container py-3 justify-content-center">
                     Copyright &copy; Marcos Notario, 2024
                 </div>
             </nav>
         </div>
 
-        <button type="button" class="btn btn-light rounded-circle justify-content-center" id="toTop">
+        <button type="button" class="btn btn-dark rounded-circle justify-content-center" id="toTop">
             <span class="material-symbols-outlined toTop">arrow_upward</span>
         </button>
 
